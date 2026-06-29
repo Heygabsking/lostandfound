@@ -1,0 +1,97 @@
+/* FULL PAGE */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* same theme as signup */
+  background: linear-gradient(135deg, #1c1c1c, #2a2a2a);
+}
+
+/* CARD */
+.login-box {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  width: 360px;
+  text-align: center;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+/* hover lift */
+.login-box:hover {
+  transform: translateY(-6px);
+}
+
+/* TITLE */
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #222;
+  font-weight: 600;
+}
+
+/* INPUTS */
+.login-box input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+
+  border: 1px solid #ccc;
+  border-radius: 6px;
+
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* INPUT FOCUS */
+.login-box input:focus {
+  border-color: #00bcd4;
+  outline: none;
+  box-shadow: 0 0 6px rgba(0, 188, 212, 0.4);
+}
+
+/* BUTTON */
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+
+  background: #00bcd4;
+  color: white;
+
+  border: none;
+  border-radius: 6px;
+
+  font-size: 15px;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* BUTTON HOVER */
+.login-box button:hover {
+  background: #0097a7;
+  transform: scale(1.03);
+}
+
+/* TEXT */
+.login-box p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* LINK */
+.login-box a {
+  color: #00bcd4;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login-box a:hover {
+  text-decoration: underline;
+}

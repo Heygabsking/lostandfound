@@ -1,0 +1,101 @@
+.contactPage {
+  background: #f4f6f8;
+  padding: 80px 20px;
+}
+
+/* HEADER */
+.contactOverlay {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.contactOverlay h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.contactIntro {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* MAIN LAYOUT */
+.contactContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+/* LEFT SIDE (INFO) */
+.contactInfo {
+  text-align: left;
+}
+
+.contactInfo h2 {
+  margin-bottom: 15px;
+}
+
+.contactInfo p {
+  margin: 8px 0;
+  color: #555;
+  font-size: 15px;
+}
+
+/* FORM CARD */
+.contactForm {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+/* INPUTS */
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+  outline: none;
+  border-color: #00bcd4;
+}
+
+/* BUTTON */
+.contactForm button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #00bcd4;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contactForm button:hover {
+  background: #0097a7;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .contactContainer {
+    grid-template-columns: 1fr;
+  }
+}
+.contactForm {
+  transition: 0.3s ease;
+}
+
+.contactForm:hover {
+  transform: translateY(-5px);
+}

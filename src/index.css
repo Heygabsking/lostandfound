@@ -1,0 +1,29 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GLOBAL */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+/* LINKS */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* BUTTON DEFAULT */
+button {
+  cursor: pointer;
+  border: none;
+}
+body {
+  margin: 0;
+  padding-top: 70px; /* SAME as navbar height */
+}

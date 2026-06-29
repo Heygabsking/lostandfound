@@ -1,0 +1,68 @@
+.footer {
+  background: #0b0b0b;
+  color: #ccc;
+  padding: 60px 20px 30px;
+}
+
+/* GRID LAYOUT (more balanced than flex) */
+.footer-container {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+}
+
+/* SECTION */
+.footer-section h3 {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer-section p {
+  color: #aaa;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* QUICK LINKS */
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #bbb;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #00bcd4;
+  padding-left: 5px;
+}
+
+/* CONTACT STYLE */
+.footer-section p span {
+  color: #00bcd4;
+  margin-right: 8px;
+}
+
+/* DIVIDER LINE */
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #222;
+  color: #777;
+  font-size: 13px;
+}
+.footer-section ul li a:hover {
+  color: #07d4ef;
+  padding-left: 5px;
+  text-shadow: 0 0 6px rgba(126, 178, 185, 0.6);
+}

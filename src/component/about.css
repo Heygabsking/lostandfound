@@ -1,0 +1,78 @@
+.aboutPage {
+  background: #f4f6f8;
+  padding: 80px 20px;
+}
+
+.aboutOverlay {
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.aboutOverlay h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+/* Intro text */
+.aboutIntro {
+  text-align: center;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.aboutSections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+/* Each box */
+.aboutBox {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+  border-top: 4px solid #00bcd4;
+
+  text-align: center; /* 👈 THIS IS THE KEY */
+}
+
+.aboutBox:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+.aboutBox:hover {
+  transform: translateY(-5px);
+}
+
+/* Section titles */
+.aboutBox h2 {
+  margin-bottom: 10px;
+}
+
+/* Text */
+.aboutBox p {
+  color: #555;
+  line-height: 1.6;
+}
+.aboutBox h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.aboutBox p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}

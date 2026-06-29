@@ -1,0 +1,31 @@
+.bannerArea {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+.imageBanner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+
+.bannerText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.bannerText h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.bannerText p {
+  font-size: 16px;
+  opacity: 0.9;
+}
