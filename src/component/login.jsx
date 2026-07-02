@@ -42,7 +42,7 @@ export default function Login() {
 
     } catch (error) {
       console.error(error);
-      alert("Login failed ❌");
+      alert(error.message);
     }
   }
 

@@ -1,5 +1,7 @@
 import "../signup.css";
+import { useNavigate, Link } from "react-router-dom";
 export default function Signup() {
+  const navigate = useNavigate();
 
   const API_URL = import.meta.env.VITE_API_URL;
 
@@ -76,7 +78,7 @@ export default function Signup() {
       </form>
 
       <p>
-        Already have an account? <a href="/login">Login</a>
+        Already have an account? <Link to="/login">Login</Link>
       </p>
     </div>
   </div>
