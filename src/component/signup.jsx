@@ -39,8 +39,9 @@ export default function Signup() {
       }
 
     } catch (error) {
-      console.error(error);
-      alert("Signup failed ❌");
+  console.error(error);
+  alert(error.message);
+}
     }
   }
 
@@ -80,4 +81,3 @@ export default function Signup() {
     </div>
   </div>
 );
-}
