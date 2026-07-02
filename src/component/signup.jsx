@@ -41,9 +41,9 @@ export default function Signup() {
     } catch (error) {
   console.error(error);
   alert(error.message);
-}
     }
-  }
+    }
+  
 
  return (
   <div className="signup-container">
@@ -81,3 +81,4 @@ export default function Signup() {
     </div>
   </div>
 );
+}
